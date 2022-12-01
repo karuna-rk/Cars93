@@ -1,0 +1,15 @@
+import pandas as pd
+Series_A=pd.DataFrame([10,20,30,40,50])
+Series_B=pd.DataFrame([40,50,60,70,80])
+common=Series_A.merge(Series_B)
+print(common)
+
+
+Series_A=pd.DataFrame([10,20,30,40,50])
+Series_A.min()
+
+Series_A=pd.DataFrame([10,20,30,40,50])
+Series_A.max()
+
+Series_A=pd.DataFrame([10,20,30,40,50])
+Series_A.cumsum()
